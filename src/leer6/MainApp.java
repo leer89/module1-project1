@@ -18,11 +18,17 @@ public class MainApp {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner sc = new Scanner(System.in);
+        Scanner stdin = new Scanner(System.in);
+        String first;
+        String last;
         
-        System.out.println("Hello World");
+        System.out.print(
+                "Enter your first and last name separated by a space: ");
+        first = stdin.next();
+        last = stdin.next();
         
-        
+        System.out.println("Your initials are: " +
+                first.charAt(0) + last.charAt(0) + ".");
     }
-    
+
 }
