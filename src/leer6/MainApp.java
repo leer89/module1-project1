@@ -5,6 +5,8 @@
  */
 package leer6;
 
+import java.util.Scanner;
+
 /**
  *
  * @author RandyLee
@@ -16,6 +18,11 @@ public class MainApp {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Hello World");
+        
+        
     }
     
 }
