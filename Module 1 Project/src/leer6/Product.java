@@ -61,4 +61,20 @@ public class Product {
     public void setLongDetails(String longDetails) {
         this.longDetails = longDetails;
     }
+    
+    public BigDecimal getPrice() {
+        return this.price;
+    } 
+    
+    public void setPrice(BigDecimal price) {
+        this.price = price;
+    }
+    
+    public int getStock() {
+        return this.stock;
+    }
+    
+    public void setStock(int stock) {
+        this.stock = stock;
+    }
 }
