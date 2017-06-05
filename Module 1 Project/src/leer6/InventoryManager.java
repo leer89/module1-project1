@@ -46,14 +46,15 @@ import java.util.List;
  */
 public class InventoryManager {
     
-    String upc;
-    
     public String getProduct(String upc) {
+        // call getProductList to get list of products
+        // find product with matching upc
+        // return matching product or return null
         return null;
     }
 
     public void getProductList(List<Product> p) {
-        System.out.printf("Nothing exists yet.");
+        // use collection storage file utiliti's load method to load product class collection
     }
     
     public void addProduct(Product p){
@@ -77,7 +78,7 @@ public class InventoryManager {
     public void removeProduct() {
         // call getProductList to get list of products
         // check to see if product with same upc exists
-        //if product with sampe upc does not exist print error
+        // if product with sampe upc does not exist print error
         
     }
 }
