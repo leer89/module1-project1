@@ -54,7 +54,7 @@ public class InventoryManager {
     }
 
     public void getProductList(List<Product> p) {
-        // use collection storage file utiliti's load method to load product class collection
+        // use collection storage file utility's load method to load product class collection
     }
     
     public void addProduct(Product p){
